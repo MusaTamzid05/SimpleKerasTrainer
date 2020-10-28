@@ -57,7 +57,7 @@ def main():
             y_val = y_val
             )
 
-    trainer.train(epochs = 2, batch_size = 128, save_dir = "model_data")
+    trainer.train(epochs = 20, batch_size = 128, save_dir = "model_data")
 
 
 
